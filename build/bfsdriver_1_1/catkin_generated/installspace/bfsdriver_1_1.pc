@@ -1,0 +1,8 @@
+prefix=/home/bdd/yucong/driving-dev/alpha/yucong-he/install
+
+Name: bfsdriver_1_1
+Description: Description of bfsdriver_1_1
+Version: 0.0.0
+Cflags: -I/home/bdd/yucong/driving-dev/alpha/yucong-he/install/include
+Libs: -L/home/bdd/yucong/driving-dev/alpha/yucong-he/install/lib -lbfsdriver_1_1
+Requires: cv_bridge message_runtime rosconsole roscpp rospy std_msgs sensor_msgs
