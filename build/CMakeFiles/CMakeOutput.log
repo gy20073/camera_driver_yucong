@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/root/aws/camera_driver_yucong/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/root/aws/camera_driver_yucong/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f652/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f652.dir/build.make CMakeFiles/cmTC_8f652.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8f652.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_8f652.dir/testCCompiler.c.o   -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_8f652
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f652.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8f652.dir/testCCompiler.c.o  -o cmTC_8f652 -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9f180/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f180.dir/build.make CMakeFiles/cmTC_9f180.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f180.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9f180.dir/testCCompiler.c.o   -c /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9f180
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f180.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9f180.dir/testCCompiler.c.o  -o cmTC_9f180 -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30bf9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30bf9.dir/build.make CMakeFiles/cmTC_30bf9.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_30bf9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30bf9.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o  -o cmTC_30bf9 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_51d90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51d90.dir/build.make CMakeFiles/cmTC_51d90.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_51d90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d90.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o  -o cmTC_51d90 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -58,24 +58,24 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30bf9' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3HW9jw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_30bf9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51d90' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjKZ2Zs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_51d90 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_30bf9/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_30bf9.dir/build.make CMakeFiles/cmTC_30bf9.dir/build]
-  ignore line: [make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_30bf9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30bf9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o  -o cmTC_30bf9 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_51d90/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_51d90.dir/build.make CMakeFiles/cmTC_51d90.dir/build]
+  ignore line: [make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_51d90]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d90.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o  -o cmTC_51d90 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -84,14 +84,14 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30bf9' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3HW9jw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_30bf9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51d90' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjKZ2Zs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_51d90 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3HW9jw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjKZ2Zs.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_30bf9] ==> ignore
+    arg [cmTC_51d90] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -120,8 +120,9 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_30bf9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_51d90.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -144,26 +145,27 @@ Parsed C implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda/lib64/stubs] ==> [/usr/local/cuda/lib64/stubs]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda/lib64/stubs]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_99862/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99862.dir/build.make CMakeFiles/cmTC_99862.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99862.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_99862.dir/feature_tests.c.o   -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_99862
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99862.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_99862.dir/feature_tests.c.o  -o cmTC_99862 -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_10bfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10bfd.dir/build.make CMakeFiles/cmTC_10bfd.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10bfd.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_10bfd.dir/feature_tests.c.o   -c /root/aws/camera_driver_yucong/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_10bfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10bfd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_10bfd.dir/feature_tests.c.o  -o cmTC_10bfd -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +175,17 @@ make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/C
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f6e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f6e4.dir/build.make CMakeFiles/cmTC_0f6e4.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0f6e4.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_0f6e4.dir/feature_tests.c.o   -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0f6e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6e4.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0f6e4.dir/feature_tests.c.o  -o cmTC_0f6e4 -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bc4c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc4c6.dir/build.make CMakeFiles/cmTC_bc4c6.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc4c6.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_bc4c6.dir/feature_tests.c.o   -c /root/aws/camera_driver_yucong/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bc4c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc4c6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bc4c6.dir/feature_tests.c.o  -o cmTC_bc4c6 -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +195,17 @@ make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/C
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d10c6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d10c6.dir/build.make CMakeFiles/cmTC_d10c6.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d10c6.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_d10c6.dir/feature_tests.c.o   -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d10c6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d10c6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d10c6.dir/feature_tests.c.o  -o cmTC_d10c6 -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3887f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3887f.dir/build.make CMakeFiles/cmTC_3887f.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3887f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_3887f.dir/feature_tests.c.o   -c /root/aws/camera_driver_yucong/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3887f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3887f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3887f.dir/feature_tests.c.o  -o cmTC_3887f -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +213,30 @@ make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/C
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_93f63/fast"
-/usr/bin/make -f CMakeFiles/cmTC_93f63.dir/build.make CMakeFiles/cmTC_93f63.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_93f63.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_93f63.dir/testCXXCompiler.cxx.o -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_93f63
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f63.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_93f63.dir/testCXXCompiler.cxx.o  -o cmTC_93f63 -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_32f34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32f34.dir/build.make CMakeFiles/cmTC_32f34.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32f34.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_32f34.dir/testCXXCompiler.cxx.o -c /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_32f34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32f34.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_32f34.dir/testCXXCompiler.cxx.o  -o cmTC_32f34 -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a240e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a240e.dir/build.make CMakeFiles/cmTC_a240e.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a240e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a240e.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a240e -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_33476/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33476.dir/build.make CMakeFiles/cmTC_33476.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_33476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33476.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33476 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -243,24 +245,24 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a240e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc04OlOV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a240e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33476' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc20UIqS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_33476 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a240e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a240e.dir/build.make CMakeFiles/cmTC_a240e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a240e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a240e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a240e -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_33476/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_33476.dir/build.make CMakeFiles/cmTC_33476.dir/build]
+  ignore line: [make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_33476]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33476.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33476 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -269,14 +271,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a240e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc04OlOV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a240e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33476' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc20UIqS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_33476 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc04OlOV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc20UIqS.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +296,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a240e] ==> ignore
+    arg [cmTC_33476] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -305,8 +307,9 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_a240e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_33476.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -327,26 +330,27 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda/lib64/stubs] ==> [/usr/local/cuda/lib64/stubs]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda/lib64/stubs]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b657c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b657c.dir/build.make CMakeFiles/cmTC_b657c.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b657c.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_b657c.dir/feature_tests.cxx.o -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b657c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b657c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b657c.dir/feature_tests.cxx.o  -o cmTC_b657c -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_728dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_728dc.dir/build.make CMakeFiles/cmTC_728dc.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_728dc.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_728dc.dir/feature_tests.cxx.o -c /root/aws/camera_driver_yucong/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_728dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_728dc.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_728dc.dir/feature_tests.cxx.o  -o cmTC_728dc -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +413,17 @@ make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/C
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_afc4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_afc4c.dir/build.make CMakeFiles/cmTC_afc4c.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_afc4c.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_afc4c.dir/feature_tests.cxx.o -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_afc4c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afc4c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_afc4c.dir/feature_tests.cxx.o  -o cmTC_afc4c -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1164b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1164b.dir/build.make CMakeFiles/cmTC_1164b.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1164b.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_1164b.dir/feature_tests.cxx.o -c /root/aws/camera_driver_yucong/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1164b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1164b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1164b.dir/feature_tests.cxx.o  -o cmTC_1164b -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +486,17 @@ make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/C
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b601e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b601e.dir/build.make CMakeFiles/cmTC_b601e.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b601e.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_b601e.dir/feature_tests.cxx.o -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b601e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b601e.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b601e.dir/feature_tests.cxx.o  -o cmTC_b601e -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dc5b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc5b3.dir/build.make CMakeFiles/cmTC_dc5b3.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc5b3.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_dc5b3.dir/feature_tests.cxx.o -c /root/aws/camera_driver_yucong/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dc5b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5b3.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_dc5b3.dir/feature_tests.cxx.o  -o cmTC_dc5b3 -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +557,30 @@ make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/C
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_473da/fast"
-/usr/bin/make -f CMakeFiles/cmTC_473da.dir/build.make CMakeFiles/cmTC_473da.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_473da.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_473da.dir/CheckIncludeFile.c.o   -c /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_473da
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_473da.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_473da.dir/CheckIncludeFile.c.o  -o cmTC_473da -rdynamic 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_77b68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77b68.dir/build.make CMakeFiles/cmTC_77b68.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77b68.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77b68.dir/CheckIncludeFile.c.o   -c /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77b68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b68.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77b68.dir/CheckIncludeFile.c.o  -o cmTC_77b68 -rdynamic 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp
+Change Dir: /root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8bfd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8bfd.dir/build.make CMakeFiles/cmTC_c8bfd.dir/build
-make[1]: Entering directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c8bfd.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c8bfd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c8bfd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8bfd.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c8bfd.dir/CheckFunctionExists.c.o  -o cmTC_c8bfd -rdynamic -lpthread 
-make[1]: Leaving directory '/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_68aad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68aad.dir/build.make CMakeFiles/cmTC_68aad.dir/build
+make[1]: Entering directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68aad.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_68aad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68aad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68aad.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_68aad.dir/CheckFunctionExists.c.o  -o cmTC_68aad -rdynamic -lpthread 
+make[1]: Leaving directory '/root/aws/camera_driver_yucong/build/CMakeFiles/CMakeTmp'
 
 

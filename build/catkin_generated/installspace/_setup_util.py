@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/bdd/ros_workspace/third_party_drivers/devel;/home/bdd/ros_workspace/as_drivers/install;/home/bdd/dbw_ws/devel;/home/bdd/ros_workspace/dev/devel;/opt/ros/kinetic'.split(';')
+        CMAKE_PREFIX_PATH = '/root/aws/camera_driver_yucong/devel;/opt/ros/kinetic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

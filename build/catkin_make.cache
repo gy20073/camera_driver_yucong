@@ -1,2 +1,2 @@
 bfsdriver_1_1
--DCATKIN_DEVEL_PREFIX=/home/bdd/yucong/driving-dev/alpha/yucong-he/devel -DCMAKE_INSTALL_PREFIX=/home/bdd/yucong/driving-dev/alpha/yucong-he/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/root/aws/camera_driver_yucong/devel -DCMAKE_INSTALL_PREFIX=/root/aws/camera_driver_yucong/install -G Unix Makefiles

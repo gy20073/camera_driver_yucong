@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"bfsdriver_1_1\"
 
-CXX_INCLUDES = -I/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include -I/usr/include/x86_64-linux-gnu -I/home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/include -I/home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/include/bfsdriver_1_1 -I/home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/include/opencv-3.3.1 -I/opt/ros/kinetic/include/opencv-3.3.1/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/root/aws/camera_driver_yucong/devel/include -I/usr/include/x86_64-linux-gnu -I/root/aws/camera_driver_yucong/src/bfsdriver_1_1/include -I/root/aws/camera_driver_yucong/src/bfsdriver_1_1/include/bfsdriver_1_1 -I/root/aws/camera_driver_yucong/src/bfsdriver_1_1 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

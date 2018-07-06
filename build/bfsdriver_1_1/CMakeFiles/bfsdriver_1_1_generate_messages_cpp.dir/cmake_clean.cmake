@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bfsdriver_1_1_generate_messages_cpp"
-  "/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h"
+  "/root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h"
 )
 
 # Per-language clean rules from dependency scanning.

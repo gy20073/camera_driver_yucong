@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/src
+CMAKE_SOURCE_DIR = /root/aws/camera_driver_yucong/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/build
+CMAKE_BINARY_DIR = /root/aws/camera_driver_yucong/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/bdd/yucong/driving-dev/alpha/yucong-he/build/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /root/aws/camera_driver_yucong/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bdd/yucong/driving-dev/alpha/yucong-he/src /home/bdd/yucong/driving-dev/alpha/yucong-he/src /home/bdd/yucong/driving-dev/alpha/yucong-he/build /home/bdd/yucong/driving-dev/alpha/yucong-he/build /home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/aws/camera_driver_yucong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/aws/camera_driver_yucong/src /root/aws/camera_driver_yucong/src /root/aws/camera_driver_yucong/build /root/aws/camera_driver_yucong/build /root/aws/camera_driver_yucong/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

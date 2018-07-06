@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/src
+CMAKE_SOURCE_DIR = /root/aws/camera_driver_yucong/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/build
+CMAKE_BINARY_DIR = /root/aws/camera_driver_yucong/build
 
 # Utility rule file for roscpp_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/build: roscpp_gener
 .PHONY : bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 
 bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bdd/yucong/driving-dev/alpha/yucong-he/src /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/aws/camera_driver_yucong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/aws/camera_driver_yucong/src /root/aws/camera_driver_yucong/src/bfsdriver_1_1 /root/aws/camera_driver_yucong/build /root/aws/camera_driver_yucong/build/bfsdriver_1_1 /root/aws/camera_driver_yucong/build/bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bfsdriver_1_1/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 

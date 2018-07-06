@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/src
+CMAKE_SOURCE_DIR = /root/aws/camera_driver_yucong/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/build
+CMAKE_BINARY_DIR = /root/aws/camera_driver_yucong/build
 
 # Include any dependencies generated for this target.
 include bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/depend.make
@@ -58,17 +58,17 @@ include bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/progress.mak
 include bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/flags.make
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/flags.make
-bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o: /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/src/image_subscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o -c /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/src/image_subscriber.cpp
+bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o: /root/aws/camera_driver_yucong/src/bfsdriver_1_1/src/image_subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/aws/camera_driver_yucong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o"
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o -c /root/aws/camera_driver_yucong/src/bfsdriver_1_1/src/image_subscriber.cpp
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.i"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/src/image_subscriber.cpp > CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.i
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/aws/camera_driver_yucong/src/bfsdriver_1_1/src/image_subscriber.cpp > CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.i
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.s"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/src/image_subscriber.cpp -o CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.s
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/aws/camera_driver_yucong/src/bfsdriver_1_1/src/image_subscriber.cpp -o CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.s
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o.requires:
 
@@ -88,99 +88,99 @@ bfsdriver_1_1_image_subscriber_OBJECTS = \
 # External object files for target bfsdriver_1_1_image_subscriber
 bfsdriver_1_1_image_subscriber_EXTERNAL_OBJECTS =
 
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/build.make
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libimage_transport.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libclass_loader.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/libPocoFoundation.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroslib.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librospack.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librostime.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcpp_common.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavcodec.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavformat.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavutil.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libswscale.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtheora.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libz.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libbz2.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libimage_transport.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libclass_loader.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/libPocoFoundation.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroslib.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librospack.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librostime.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcpp_common.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavcodec.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavformat.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavutil.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libswscale.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtheora.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libz.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libbz2.so
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bfsdriver_1_1_image_subscriber.dir/link.txt --verbose=$(VERBOSE)
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/src/image_subscriber.cpp.o
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/build.make
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcv_bridge.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libimage_transport.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libmessage_filters.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libclass_loader.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/libPocoFoundation.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libdl.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroslib.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librospack.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librostime.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcpp_common.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavcodec.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavformat.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavutil.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libswscale.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtheora.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libz.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libbz2.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcv_bridge.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libimage_transport.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libmessage_filters.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libclass_loader.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/libPocoFoundation.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libdl.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroslib.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librospack.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/librostime.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /opt/ros/kinetic/lib/libcpp_common.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavcodec.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavformat.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libavutil.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libswscale.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libtheora.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libz.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: /usr/lib/x86_64-linux-gnu/libbz2.so
+/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/aws/camera_driver_yucong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber"
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bfsdriver_1_1_image_subscriber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/build: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber
+bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/build: /root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_image_subscriber
 
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/build
 
@@ -189,10 +189,10 @@ bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/requires: bfsdriver_
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/requires
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/clean:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/bfsdriver_1_1_image_subscriber.dir/cmake_clean.cmake
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/bfsdriver_1_1_image_subscriber.dir/cmake_clean.cmake
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/clean
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/depend:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bdd/yucong/driving-dev/alpha/yucong-he/src /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/aws/camera_driver_yucong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/aws/camera_driver_yucong/src /root/aws/camera_driver_yucong/src/bfsdriver_1_1 /root/aws/camera_driver_yucong/build /root/aws/camera_driver_yucong/build/bfsdriver_1_1 /root/aws/camera_driver_yucong/build/bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_image_subscriber.dir/depend
 

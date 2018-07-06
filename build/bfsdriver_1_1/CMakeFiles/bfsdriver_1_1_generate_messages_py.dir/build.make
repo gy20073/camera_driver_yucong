@@ -43,35 +43,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/src
+CMAKE_SOURCE_DIR = /root/aws/camera_driver_yucong/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/build
+CMAKE_BINARY_DIR = /root/aws/camera_driver_yucong/build
 
 # Utility rule file for bfsdriver_1_1_generate_messages_py.
 
 # Include the progress variables for this target.
 include bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/progress.make
 
-bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py
-bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py
+bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py: /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py
+bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py: /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py
 
 
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/msg/ImageStamp.msg
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /opt/ros/kinetic/share/sensor_msgs/msg/Image.msg
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG bfsdriver_1_1/ImageStamp"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/msg/ImageStamp.msg -Ibfsdriver_1_1:/home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p bfsdriver_1_1 -o /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg
+/root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /root/aws/camera_driver_yucong/src/bfsdriver_1_1/msg/ImageStamp.msg
+/root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /opt/ros/kinetic/share/sensor_msgs/msg/Image.msg
+/root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/aws/camera_driver_yucong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG bfsdriver_1_1/ImageStamp"
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /root/aws/camera_driver_yucong/src/bfsdriver_1_1/msg/ImageStamp.msg -Ibfsdriver_1_1:/root/aws/camera_driver_yucong/src/bfsdriver_1_1/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p bfsdriver_1_1 -o /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg
 
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for bfsdriver_1_1"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg --initpy
+/root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py: /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/aws/camera_driver_yucong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for bfsdriver_1_1"
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg --initpy
 
 bfsdriver_1_1_generate_messages_py: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py
-bfsdriver_1_1_generate_messages_py: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py
-bfsdriver_1_1_generate_messages_py: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py
+bfsdriver_1_1_generate_messages_py: /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/_ImageStamp.py
+bfsdriver_1_1_generate_messages_py: /root/aws/camera_driver_yucong/devel/lib/python2.7/dist-packages/bfsdriver_1_1/msg/__init__.py
 bfsdriver_1_1_generate_messages_py: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/build.make
 
 .PHONY : bfsdriver_1_1_generate_messages_py
@@ -82,10 +82,10 @@ bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/build: bfsdriver
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/build
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/clean:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/cmake_clean.cmake
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/clean
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/depend:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bdd/yucong/driving-dev/alpha/yucong-he/src /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/aws/camera_driver_yucong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/aws/camera_driver_yucong/src /root/aws/camera_driver_yucong/src/bfsdriver_1_1 /root/aws/camera_driver_yucong/build /root/aws/camera_driver_yucong/build/bfsdriver_1_1 /root/aws/camera_driver_yucong/build/bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_py.dir/depend
 

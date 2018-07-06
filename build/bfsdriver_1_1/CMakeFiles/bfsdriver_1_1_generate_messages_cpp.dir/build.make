@@ -43,29 +43,29 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/src
+CMAKE_SOURCE_DIR = /root/aws/camera_driver_yucong/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bdd/yucong/driving-dev/alpha/yucong-he/build
+CMAKE_BINARY_DIR = /root/aws/camera_driver_yucong/build
 
 # Utility rule file for bfsdriver_1_1_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/progress.make
 
-bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h
+bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp: /root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h
 
 
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h: /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/msg/ImageStamp.msg
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/share/sensor_msgs/msg/Image.msg
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bdd/yucong/driving-dev/alpha/yucong-he/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from bfsdriver_1_1/ImageStamp.msg"
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/msg/ImageStamp.msg -Ibfsdriver_1_1:/home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p bfsdriver_1_1 -o /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1 -e /opt/ros/kinetic/share/gencpp/cmake/..
+/root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h: /root/aws/camera_driver_yucong/src/bfsdriver_1_1/msg/ImageStamp.msg
+/root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/share/sensor_msgs/msg/Image.msg
+/root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/aws/camera_driver_yucong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from bfsdriver_1_1/ImageStamp.msg"
+	cd /root/aws/camera_driver_yucong/src/bfsdriver_1_1 && /root/aws/camera_driver_yucong/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/aws/camera_driver_yucong/src/bfsdriver_1_1/msg/ImageStamp.msg -Ibfsdriver_1_1:/root/aws/camera_driver_yucong/src/bfsdriver_1_1/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p bfsdriver_1_1 -o /root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1 -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 bfsdriver_1_1_generate_messages_cpp: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp
-bfsdriver_1_1_generate_messages_cpp: /home/bdd/yucong/driving-dev/alpha/yucong-he/devel/include/bfsdriver_1_1/ImageStamp.h
+bfsdriver_1_1_generate_messages_cpp: /root/aws/camera_driver_yucong/devel/include/bfsdriver_1_1/ImageStamp.h
 bfsdriver_1_1_generate_messages_cpp: bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/build.make
 
 .PHONY : bfsdriver_1_1_generate_messages_cpp
@@ -76,10 +76,10 @@ bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/build: bfsdrive
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/build
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/clean:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /root/aws/camera_driver_yucong/build/bfsdriver_1_1 && $(CMAKE_COMMAND) -P CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/clean
 
 bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/depend:
-	cd /home/bdd/yucong/driving-dev/alpha/yucong-he/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bdd/yucong/driving-dev/alpha/yucong-he/src /home/bdd/yucong/driving-dev/alpha/yucong-he/src/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1 /home/bdd/yucong/driving-dev/alpha/yucong-he/build/bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/aws/camera_driver_yucong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/aws/camera_driver_yucong/src /root/aws/camera_driver_yucong/src/bfsdriver_1_1 /root/aws/camera_driver_yucong/build /root/aws/camera_driver_yucong/build/bfsdriver_1_1 /root/aws/camera_driver_yucong/build/bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bfsdriver_1_1/CMakeFiles/bfsdriver_1_1_generate_messages_cpp.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bfsdriver_1_1_trigger_publisher.dir/src/trigger_publisher.cpp.o"
-  "/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_trigger_publisher.pdb"
-  "/home/bdd/yucong/driving-dev/alpha/yucong-he/devel/lib/bfsdriver_1_1/bfsdriver_1_1_trigger_publisher"
+  "/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_trigger_publisher.pdb"
+  "/root/aws/camera_driver_yucong/devel/lib/bfsdriver_1_1/bfsdriver_1_1_trigger_publisher"
 )
 
 # Per-language clean rules from dependency scanning.
